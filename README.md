@@ -1,11 +1,11 @@
 # Scanner Intestazioni di Sicurezza HTTP | TAVARDT Italia
 
-[![Auditoria de Segurança](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/it/analisi-header-sicurezza/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-Italia-00C853.svg)](https://ag.tavardt.com/it/sicurezza-informatica/)
+[![Ambito di Verifica Perimetrale](https://img.shields.io/badge/TAVARDT-Diagnostica%20Tecnica-5b3cf5.svg)](https://tools.tavardt.com/it/analisi-header-sicurezza/)
+[![Giurisdizione](https://img.shields.io/badge/Giurisdizione-Italia-00C853.svg)](https://ag.tavardt.com/it/sicurezza-informatica/)
 
 Verifica tecnica perimetrale delle intestazioni di sicurezza HTTP allineata con i provvedimenti del Garante Privacy e gli standard ACN in Italia.
 
-Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraestruturas da **[TAVARDT Italia](https://ag.tavardt.com/it/)**.
+Sviluppato e gestito dalla divisione di sicurezza informatica e protezione infrastrutture di **[TAVARDT Italia](https://ag.tavardt.com/it/)**.
 
 ---
 
@@ -13,28 +13,28 @@ Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraest
 
 Questa utilità da terminale analizza la corretta configurazione delle intestazioni crittografiche e di isolamento delle sessioni web:
 
-* **Strict-Transport-Security (HSTS):** Força comunicações encriptadas via HTTPS e impede ataques de downgrade e interceptação SSL.
-* **Content-Security-Policy (CSP):** Mitiga ataques de injeção de scripts (XSS) e restringe as origens autorizadas para carregamento de recursos.
-* **X-Frame-Options:** Previne ataques de clickjacking regulando as permissões de incorporação em frames e iframes.
-* **X-Content-Type-Options:** Impede a execução indevida de ficheiros derivados de vulnerabilidades de MIME-sniffing.
-* **Referrer-Policy:** Protege dados sensíveis contidos em URLs de referência contra fuga para domínios terceiros.
-* **Permissions-Policy:** Aplica o princípio do menor privilégio sobre APIs de hardware do navegador (câmara, microfone e geolocalização).
+* **Strict-Transport-Security (HSTS):** Impone connessioni cifrate sicure via HTTPS e impedisce attacchi di downgrade SSL.
+* **Content-Security-Policy (CSP):** Blocca l'iniezione di script malevoli (XSS) e limita le origini autorizzate al caricamento di risorse.
+* **X-Frame-Options:** Impedisce attacchi di clickjacking gestendo i permessi di incorporazione in frame e iframe.
+* **X-Content-Type-Options:** Previene l'esecuzione impropria di file dovuta a vulnerabilità di MIME-sniffing.
+* **Referrer-Policy:** Protegge i parametri sensibili negli URL di provenienza contro la dispersione verso terze parti.
+* **Permissions-Policy:** Applica il principio del privilegio minimo alle API hardware del browser (fotocamera, microfono, geolocalizzazione).
 
 ---
 
 ## 2. Guida Rapida all'Esecuzione
 
-Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
+Esegui lo strumento direttamente tramite Python senza necessità di librerie esterne:
 
 ```bash
-python scanner.py exemplo.com
+python scanner.py esempio.it
 ```
 
 ---
 
 ## 3. Strumenti Diagnostici Online (Italia)
 
-Audite a infraestrutura pública das suas aplicações utilizando a suíte de diagnósticos da TAVARDT:
+Verifica la sicurezza perimetrale delle tue applicazioni web tramite gli strumenti ufficiali TAVARDT:
 
 * [Analisi Header HTTP di Sicurezza](https://tools.tavardt.com/it/analisi-header-sicurezza/)
 * [Validatore Consent Mode v2 e GDPR](https://tools.tavardt.com/it/validatore-consent-mode-v2-gdpr/)
