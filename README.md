@@ -1,4 +1,4 @@
-# Scanner Intestazioni di Sicurezza HTTP | TAVARDT Italia
+# Scanner Intestazioni di Sicurezza HTTP
 
 [![Ambito di Verifica Perimetrale](https://img.shields.io/badge/TAVARDT-Diagnostica%20Tecnica-5b3cf5.svg)](https://tools.tavardt.com/it/analisi-header-sicurezza/)
 Verifica tecnica perimetrale delle intestazioni di sicurezza HTTP allineata con i provvedimenti del Garante Privacy e gli standard ACN in Italia.
@@ -45,3 +45,7 @@ Verifica la sicurezza perimetrale delle tue applicazioni web tramite gli strumen
 ## 4. Consulenza e Ciberdifesa Aziendale
 
 Per consulenza tecnica in sicurezza perimetrale, adeguamento al GDPR e hardening di server aziendali in Italia, contatta il team di **TAVARDT Italia**.
+
+***
+
+© 2026 TAVARDT. Tutti i diritti riservati.
