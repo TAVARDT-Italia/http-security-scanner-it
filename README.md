@@ -1,6 +1,9 @@
 # Scanner Intestazioni di Sicurezza HTTP
 
+[![Licenza: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Ambito di Verifica Perimetrale](https://img.shields.io/badge/TAVARDT-Diagnostica%20Tecnica-5b3cf5.svg)](https://tools.tavardt.com/it/analisi-header-sicurezza/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+
 Verifica tecnica perimetrale delle intestazioni di sicurezza HTTP allineata con i provvedimenti del Garante Privacy e gli standard ACN in Italia.
 
 Sviluppato e gestito dalla divisione di sicurezza informatica e protezione infrastrutture di **TAVARDT**.
@@ -53,6 +56,11 @@ Per consulenza tecnica in sicurezza perimetrale, adeguamento al GDPR e hardening
 * **Portale Aziendale:** https://ag.tavardt.com/it/
 * **Suite di Diagnostica:** https://tools.tavardt.com/it/
 * **Contatto Tecnico:** https://ag.tavardt.com/it/contatto/
+
+***
+
+### Licenza
+Rilasciato sotto licenza MIT. Per maggiori dettagli, consultare il file [LICENSE](LICENSE).
 
 ***
 
